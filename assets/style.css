@@ -56,21 +56,61 @@ section {
     padding: 3px;
 }
 
-#left-box {
+/* #about-border {
+    border-right: 3px solid teal;
+    margin-right: 20px;
+} */
+
+/* #about-border {
+    border-left: 3px solid teal;
+    margin-left: 132px;
+} */
+
+p {
+    width: 75%;
+    margin-left: -14px;
+    padding-left: 0px;
+}
+
+/* .work-border {
+    border-left: 3px solid teal;
+    padding-left: 20px
+} */
+
+/* #left-box {
     border-left: 3px solid teal;
     padding-left: 20px;
+} */
+
+img {
+    border: 2px solid teal;
+
 }
 
 h2 {
     width: 25%;
+    border-right: 3px solid teal;
+    margin-right: 21px;
+}
+
+
+.card-image {
+    margin: 13px 5px;
+    width: 35%;
 }
 
 #top-img {
-    height: 300px;
+    /* height: 300px;
     width: 95%; 
     cursor: pointer;
     border: 2px solid teal;
+    margin: 10px; */
+    height: 300px;
+    width: 65%;
+    cursor: pointer;
+    border: 2px solid teal;
     margin: 10px;
+    margin-left: 382px;
 }
 
 #top-img:hover {
@@ -80,7 +120,7 @@ h2 {
 #img-tag {
     position: absolute;
     top: 50%;
-    left: 21.75%;
+    left: 25.7%;
     background-color: white;
     padding: 20px;
     border-top-right-radius: 10px;
@@ -90,8 +130,13 @@ h2 {
     border-bottom: 2px solid teal;
 }
 
+.card {
+    position: relative;
+    margin
+}
+
 footer {
-    background-color: salmon;
+    background-color: teal;
     padding: 30px 20px;
     position: fixed;
     bottom: 0px;
