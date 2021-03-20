@@ -5,7 +5,7 @@
 }
 
 body {
-    height: 100%;
+    height: 100vw;
 }
 
 header {
@@ -42,7 +42,7 @@ a:link {
 }
 
 main {
-    
+    height: 100vw;
 }
 
 section {
@@ -54,6 +54,7 @@ section {
 .main {
     border: 1px solid black;
     padding: 3px;
+    margin: 5px;
 }
 
 /* #about-border {
@@ -96,22 +97,32 @@ h2 {
 
 .card-image {
     margin: 13px 5px;
-    width: 35%;
+    display: flex;
+    cursor: pointer;
+    border: 5px solid teal;
 }
 
-#top-img {
-    /* height: 300px;
+.card-image:hover {
+    opacity: 80%;
+}
+
+#card-1 {
+    width: 20%;
+}
+
+/* #top-img {
+    height: 300px;
     width: 95%; 
     cursor: pointer;
     border: 2px solid teal;
-    margin: 10px; */
+    margin: 10px;
     height: 300px;
     width: 65%;
     cursor: pointer;
     border: 2px solid teal;
     margin: 10px;
     margin-left: 382px;
-}
+} */
 
 #top-img:hover {
     opacity: 80%;
