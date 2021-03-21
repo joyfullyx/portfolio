@@ -106,7 +106,7 @@ h2 {
 }
 
 
-/* .cards {
+/* .cards {j
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -116,9 +116,10 @@ h2 {
 
 .card-image {
     margin: 13px 5px;
+    width: calc(50% - 20px);
     cursor: pointer;
     border: 5px solid teal;
-    height: 100%;
+    height: 200px;
     min-width: 0;
     object-fit: cover;
 }
@@ -129,13 +130,7 @@ h2 {
 
 .full-width-card {
     width: 100%;
-    height: 200px;
     align-self: stretch;
-}
-
-.half-width-card {
-    width: 45%;
-    height: 200px;
 }
 
 #tag-1 {
@@ -296,13 +291,15 @@ footer {
     margin: auto;
 }
 
-#nav-bottom-left {
-    display: inline-block;
-    padding-right: 18px;
-}
-
 /* #nav-bottom-right {
     font-size: 14px;
     float: right;
     padding: 12px;
 } */
+
+@media and (min-width: 768px) {
+    .body {
+        flex: 0 0 50%;
+        max-width: 50%
+    }
+}
