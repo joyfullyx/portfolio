@@ -11,28 +11,38 @@ body {
 
 header {
     background-color: #074973;
-    padding: 30px 20px;
+    padding: 30px 0px;
+    padding-right: 40px;
     width: 100%;
-    border: 1px solid black;
     margin: 0 auto;
+}
+
+h1 {
+    color: white;
 }
 
 .nav {
     color: white;
+    display: inline;
 }
 
 #nav-left {
     display: inline-block;
     font-size: 36px;
     font-weight: bold;
-    
+    padding-left: 40px;
 }
 
-#nav-right {
+.nav-right {
     font-size: 18px;
-    float: right;
-    padding: 12px;
+    padding: 0 12px;
     color: white;
+    float: right;
+    padding-top: 13px;
+}
+
+.nav-right:hover {
+    color: #E7BF49;
 }
 
 a:link {
@@ -41,10 +51,6 @@ a:link {
 
 a:visited {
     color: #F2D57E;
-}
-
-.header {
-
 }
 
 .header-img {
@@ -85,7 +91,7 @@ section {
     margin: 5px;
     padding-top: 30px;
     padding-bottom: 30px;
-    padding-right: 100px;
+    padding-right: 50px;
 }
 
 p {
@@ -121,188 +127,90 @@ h2 {
     
 }
 
-
-/* .cards { 
+.flex-card {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
-    flex-direction: row;
-} */
+    flex-direction: column;
+    justify-content: flex-end;
+}
 
-
-/* .card-image {
-    position: relative;
-    margin: 13px 5px;
-    width: calc(50% - 20px);
-    cursor: pointer;
-    border: 5px solid white;
-    height: 200px;
-    min-width: 0;
-    object-fit: cover;
-} */
-
-.card-image:hover {
+.flex-card:hover {
     opacity: 80%;
 }
 
 .full-width-card {
-    /* width: 100%;
-    height: 500px; */
     background-image: url("https://images.pexels.com/photos/6946028/pexels-photo-6946028.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
     width: 100%;
     height: 500px;
+    margin: 10px;
+}
+
+.full-width-card .labels {
+    height: 14%;
 }
 
 .mood {
     background-image: url("https://images.pexels.com/photos/6960358/pexels-photo-6960358.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
-    width: 48%;
+    width: 47%;
     height: 200px;
+    margin: 10px;
+}
+
+.mood .labels {
+    height: 30%;
 }
 
 .prada {
     background-image: url("https://images.pexels.com/photos/7031002/pexels-photo-7031002.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
-    width: 48%;
+    width: 47%;
     height: 200px;
+    margin: 10px;
+}
+
+.prada .labels {
+    height: 30%;
 }
 
 .paint {
     background-image: url("https://images.pexels.com/photos/933967/pexels-photo-933967.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
-    width: 48%;
+    width: 47%;
     height: 200px;
+    margin: 10px;
+}
+
+.paint .labels {
+    height: 30%;
 }
 
 .building {
     background-image: url("https://images.pexels.com/photos/6960353/pexels-photo-6960353.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
-    width: 45%;
+    width: 47%;
     height: 200px;
+    margin: 10px;
 }
 
-/* .full-width-card #tag-1 {
-    position: absolute;
-    top: 46%;
-    bottom: 50%;
-    left: 26%;
-    padding: 6px 12px;
-    /* padding-top: 23px; */
-    margin-left: -5px;
-    /* border-top: 2px solid teal; */
-    border-top-right-radius: 3px;
-    border-bottom-right-radius: 3px;
-    /* border-bottom: 2px solid teal;
-    border-right: 2px solid teal; */
-    margin-right: 3px;
-    max-width: 15%;
+.building .labels {
+    height: 30%;
+}
+
+.labels {
     background: #F2D57E;
-    color: #333333;
-} */
-
-/* .card-image:first-child {
-    width: 100%;
-    height: 550px;
-} */
-
-/* #tag-1 {
-    position: absolute;
-    top: 46%;
-    bottom: 50%;
-    left: 26%;
-    padding: 6px 12px;
-    /* padding-top: 23px; */
-    margin-left: -5px;
-    /* border-top: 2px solid teal; */
-    border-top-right-radius: 3px;
-    border-bottom-right-radius: 3px;
-    /* border-bottom: 2px solid teal;
-    border-right: 2px solid teal; */
-    margin-right: 3px;
-    max-width: 15%;
-    background: #F2D57E;
-    color: #333333;
-} */
-
-.tag-left {
-    position: absolute;
-    /* bottom: 36%;
-    left: 28%; */
-    padding: 6px 12px;
-    /* padding-top: 19px; */
-    margin-left: -5px;
-    /* border-top: 2px solid teal; */
-    border-top-right-radius: 3px;
-    border-bottom-right-radius: 3px;
-    /* border-bottom: 2px solid teal;
-    border-right: 2px solid teal; */
-    margin-right: 3px;
-    max-width: 140px;
-    background:#F2D57E;
-    color: #333333;
+    color: #666666;
+    width: 40%;
+    height: 15%;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 10px;
 }
 
-.tag-right {
-    position: absolute;
-    /* bottom: 36%; */
-    left: 63%;
-    /* top: 58%; */
-    padding: 6px 12px;
-    /* padding-top: 19px; */
-    margin-left: -2px;
-    /* border-top: 2px solid teal; */
-    border-top-right-radius: 3px;
-    border-bottom-right-radius: 3px;
-    /* border-bottom: 2px solid teal;
-    border-right: 2px solid teal; */
-    margin-right: 3px;
-    max-width: 140px;
-    background: #F2D57E;
-    color: #333333;
+.labels h3 {
+    font-size: 30px;
+    font-weight: bold;
 }
 
-#tag-2 {
-    /* position: absolute; */
-    top: 70%;
-    bottom: 26%;
-    left: 26%;
-}
-
-#tag-3 {
-    /* position: absolute; */
-    top: 70%;
-    bottom: 26%;
-}
-
-#tag-4 {
-    /* position: absolute; */
-    top: 93%;
-    bottom: 3%;
-    left: 26%;
-}
-
-#tag-5 {
-    position: absolute;
-    top: 93%;
-    bottom: 3%;
-}
-
-.tags {
-    text-align: left;
-}
-
-#top-img:hover {
-    opacity: 80%;
-}
-
-#img-tag {
-    position: absolute;
-    top: 50%;
-    left: 25.7%;
-    background-color: white;
-    padding: 20px;
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
-    border-top: 2px solid teal;
-    border-right: 2px solid teal;
-    border-bottom: 2px solid teal;
-}
+.flex-container p {
+    font-size: 16px;
+}    
 
 footer {
     background-color: white;
@@ -321,19 +229,16 @@ footer {
 }
 
 #nav-bottom-right {
-    padding: 2px 40px;
+    padding: 2px 35px;
     color: #074973;
 }
 
-/* #nav-bottom-right {
-    font-size: 14px;
-    float: right;
-    padding: 12px;
-} */
+#nav-bottom-right:hover {
+    color: #0C5F95;
+}
 
-/* @media and (max-width: 768px) {
-    .body {
-        flex: 0 0 50%;
-        max-width: 50%
+@media and (max-width: 768px) {
+    .flex-card {
+        width: 100%;
     }
-} */
+}

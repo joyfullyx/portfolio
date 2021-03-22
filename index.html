@@ -11,12 +11,12 @@
     <body>
         <section class="header">
             <header>
+                <h1 id="nav-left" href="#">Joy Rhee</h1>
                 <div class="nav">
-                    <h1 id="nav-left" href="#">Joy Rhee</h1>
-                    <a id="nav-right" href="#">About Me</a>
-                    <a id="nav-right" href="#">Work</a>
-                    <a id="nav-right" href="#">Contact Me</a>
-                    <a id="nav-right" href="#">Resume</a>
+                    <a class="nav-right" href="#">Resume</a>
+                    <a class="nav-right" href="#contact-me">Contact Me</a>
+                    <a class="nav-right" href="#work">Work</a>
+                    <a class="nav-right" href="#about-me">About Me</a>
                 </div>
             </header>
         </section>
@@ -24,7 +24,7 @@
             <img class="header-img" src="https://images.pexels.com/photos/3727257/pexels-photo-3727257.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="header image"/>
         </section>
     <main class="main">
-        <section class="about-me">
+        <section class="about-me" id="about-me">
             <h2>About Me</h2>
             <!-- <div id="about-border"> -->
             <p>
@@ -34,44 +34,49 @@
             </p>
             </div>
         </section>
-        <section class="work">
+        <section class="work" id="work">
             <h2>Work</h2>
             <div class="flex-container">
                 <a href="#" class="full-width-card flex-card">
-                    <div>    
-                        <p>Stairs</p>     
+                    <div class="labels"> 
+                        <h3>Stairs</h3>   
+                        <p>Some text here</p>           
                     </div> 
                 </a>        
                 <a href="#" class="mood flex-card">
-                    <div>
-                        <p>Mood</p>
+                    <div class="labels">
+                        <h3>Mood</h3>   
+                        <p>Some text here</p>
                     </div>
                 </a>
                 <a href="#" class="prada flex-card">
-                    <div>
-                        <p>Prada</p>
+                    <div class="labels">
+                        <h3>Prada</h3>   
+                        <p>Some text here</p>              
                     </div>
                 </a>
                 <a href="#" class="paint flex-card">
-                    <div>
-                        <p>Paint</p>
+                    <div class="labels">
+                        <h3>Paint</h3>   
+                        <p>Some text here</p>                     
                     </div>
                 </a>
                 <a href="#" class="building flex-card">
-                    <div>
-                        <p>Chair</p>
+                    <div class="labels">
+                        <h3>Chair</h3>   
+                        <p>Some text here</p>                   
                     </div>
                 </a>
             </div>
         </section>
 
         <footer>
-        <section class="nav-bottom">
+        <section class="nav-bottom" id="contact-me">
             <h2>Contact Me</h2>
             <div class="bottom-nav-link">
                 <a  id="nav-bottom-right" href="#">000-000-0000</a>
-                <a  id="nav-bottom-right" href="#">email@email.com</a>
-                <a  id="nav-bottom-right" href="#">GitHub</a>
+                <a  id="nav-bottom-right" href="mailto:joyfullyx@gmail.com">Email</a>
+                <a  id="nav-bottom-right" href="https://github.com/joyfullyx" target="_blank">GitHub</a>
                 <a  id="nav-bottom-right" href="#">Twitter</a>
                 <a  id="nav-bottom-right" href="#">Spotify</a>
         </section>
