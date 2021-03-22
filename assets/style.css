@@ -237,7 +237,7 @@ footer {
     color: #0C5F95;
 }
 
-@media and (max-width: 768px) {
+@media screen and (max-width: 768px) {
     .flex-card {
         width: 100%;
     }
