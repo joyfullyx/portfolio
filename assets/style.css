@@ -49,8 +49,13 @@ a:link {
     text-decoration: none;
 }
 
+
 a:visited {
     color: #F2D57E;
+}
+
+.header {
+    min-width: 100%;
 }
 
 .header-img {
@@ -138,73 +143,80 @@ h2 {
     opacity: 80%;
 }
 
-.full-width-card {
-    background-image: url("https://images.pexels.com/photos/6946028/pexels-photo-6946028.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+.code-refactor {
+    background-image: url("https://images.pexels.com/photos/1732414/pexels-photo-1732414.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    background-size: cover;
     width: 100%;
     height: 500px;
     margin: 10px;
 }
 
-.full-width-card .labels {
+/* .full-width-card .labels {
     height: 14%;
-}
+} */
 
-.mood {
-    background-image: url("https://images.pexels.com/photos/6960358/pexels-photo-6960358.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+.css-demo {
+    background-image: url("https://images.pexels.com/photos/323780/pexels-photo-323780.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    background-size: cover;
     width: 47%;
     height: 200px;
     margin: 10px;
 }
 
-.mood .labels {
-    height: 30%;
+.css-demo .labels {
+    height: 25%;
 }
 
-.prada {
-    background-image: url("https://images.pexels.com/photos/7031002/pexels-photo-7031002.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+.twilight {
+    background-image: url("https://images.pexels.com/photos/453201/pexels-photo-453201.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    background-size: cover;
     width: 47%;
     height: 200px;
     margin: 10px;
 }
 
-.prada .labels {
-    height: 30%;
+.twilight .labels {
+    height: 25%;
 }
 
-.paint {
-    background-image: url("https://images.pexels.com/photos/933967/pexels-photo-933967.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+.workspace {
+    background-image: url("https://images.pexels.com/photos/389818/pexels-photo-389818.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    background-size: cover;
     width: 47%;
     height: 200px;
     margin: 10px;
 }
 
-.paint .labels {
-    height: 30%;
+.workspace .labels {
+    height: 25%;
 }
 
-.building {
+.chair {
     background-image: url("https://images.pexels.com/photos/6960353/pexels-photo-6960353.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    background-size: cover;
+    object-fit: cover;
+    background-repeat: no-repeat;
     width: 47%;
     height: 200px;
     margin: 10px;
 }
 
-.building .labels {
-    height: 30%;
+.chair .labels {
+    height: 25%;
 }
 
 .labels {
     background: #F2D57E;
     color: #666666;
-    width: 40%;
-    height: 15%;
+    width: 45%;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
     padding: 10px;
+
 }
 
 .labels h3 {
-    font-size: 30px;
+    font-size: 22px;
     font-weight: bold;
 }
 
@@ -237,8 +249,45 @@ footer {
     color: #0C5F95;
 }
 
-@media screen and (max-width: 768px) {
+#nav-bottom-right > a:visited {
+    color:#F2D57E
+}
+
+/* for desktop screen size */
+/* @media screen and (min-width: 1024px) {
     .flex-card {
         width: 100%;
+    }
+} */
+
+/* for tablet screen size */
+@media screen and (max-width: 1023px) {
+    .flex-card {
+        width: 100%;
+        max-height: 20%;
+        background-position: center;
+    }
+}
+
+/* for smartphone screen size */
+@media screen and (max-width: 767px) {
+    .flex-card {
+        width: 100%;
+        max-height: 20%;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .labels h3 {
+        font-size: 15px;
+    }
+    .labels p {
+        font-size: 10px;
+    }
+    .about-me h2 {
+        font-size: 30px;
+    }
+    .nav-bottom h2 {
+        font-size: 22px;
     }
 }
