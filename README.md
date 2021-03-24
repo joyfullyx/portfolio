@@ -2,7 +2,7 @@
 
 ## Creating a Portfolio Webpage
 
-The goal of this assignment was to build a personal portfolio web application. The contents included on the page are a header that contains a **navbar** styled with responsive CSS to direct the user to the appropriate section of the web page. 
+The goal of this assignment was to build a personal portfolio web application with friendly UX and UI for the user. The contents included on the page are a header that contains a **navbar** styled with responsive CSS to direct the user to the appropriate section of the web page. 
 
 Also included in the Work section are clickable images that direct the user to the corresponding page named in the image labels. Clicking on the images will open the appropriate web page in a new tab for better customer UI. 
 
@@ -10,4 +10,10 @@ The responsive CSS design in the Work section allows seamless UI for the user to
 
 The footer of the portfolio includes contact information and several other links that allow the user to connect with the client on multiple platforms. 
 
-![header] (file:///Users/joy/Desktop/Code/homework/portfolio/images/header.png)
+[Joy Rhee Portfolio](https://joyfullyx.github.io/portfolio/)
+
+![header](https://raw.githubusercontent.com/joyfullyx/portfolio/main/images/header.png) 
+
+![main](https://raw.githubusercontent.com/joyfullyx/portfolio/main/images/main.png)
+
+![footer](https://raw.githubusercontent.com/joyfullyx/portfolio/main/images/footer.png) 

@@ -33,6 +33,7 @@ h1 {
     padding-left: 40px;
 }
 
+/* float to make text line up to the right side of page */
 .nav-right {
     font-size: 18px;
     padding: 0 12px;
@@ -41,15 +42,17 @@ h1 {
     padding-top: 13px;
 }
 
+/* color change on mouse hover */
 .nav-right:hover {
     color: #E7BF49;
 }
 
+/* no underline for links */
 a:link {
     text-decoration: none;
 }
 
-
+/* color change for visited links */
 a:visited {
     color: #F2D57E;
 }
@@ -122,6 +125,7 @@ h2 {
     color: #074973;
 }
 
+/* flexbox for work section */
 .flex-container {
     display: flex;
     margin: auto;
@@ -132,6 +136,7 @@ h2 {
     
 }
 
+/* flexbox images */
 .flex-card {
     display: flex;
     flex-wrap: wrap;
@@ -139,6 +144,7 @@ h2 {
     justify-content: flex-end;
 }
 
+/* change opacity on hover over images */
 .flex-card:hover {
     opacity: 80%;
 }
@@ -150,10 +156,6 @@ h2 {
     height: 500px;
     margin: 10px;
 }
-
-/* .full-width-card .labels {
-    height: 14%;
-} */
 
 .css-demo {
     background-image: url("https://images.pexels.com/photos/323780/pexels-photo-323780.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
@@ -245,20 +247,15 @@ footer {
     color: #074973;
 }
 
+/* color change on hover */
 #nav-bottom-right:hover {
     color: #0C5F95;
 }
 
+/* color change for visited */
 #nav-bottom-right > a:visited {
     color:#F2D57E
 }
-
-/* for desktop screen size */
-/* @media screen and (min-width: 1024px) {
-    .flex-card {
-        width: 100%;
-    }
-} */
 
 /* for tablet screen size */
 @media screen and (max-width: 1023px) {
@@ -277,6 +274,7 @@ footer {
     }
 }
 
+/* for longer text in h2 to scale for smaller screen */
 @media screen and (max-width: 580px) {
     .labels h3 {
         font-size: 15px;
