@@ -62,6 +62,7 @@ a:visited {
 }
 
 .header-img {
+    /* background-image: url('../images/header-pic.png'); */
     display: block;
     width: 100%;
     height: 250px;
@@ -150,7 +151,8 @@ h2 {
 }
 
 .code-refactor {
-    background-image: url("https://images.pexels.com/photos/1732414/pexels-photo-1732414.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    /* background-image: url("https://images.pexels.com/photos/1732414/pexels-photo-1732414.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"); */
+    background-image: url('../images/vaccine-types.png');
     background-size: cover;
     width: 100%;
     height: 500px;
@@ -158,7 +160,8 @@ h2 {
 }
 
 .css-demo {
-    background-image: url("https://images.pexels.com/photos/323780/pexels-photo-323780.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    /* background-image: url("https://images.pexels.com/photos/323780/pexels-photo-323780.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"); */
+    background-image: url('../images/todo.png');
     background-size: cover;
     width: 47%;
     height: 200px;
@@ -170,7 +173,8 @@ h2 {
 }
 
 .twilight {
-    background-image: url("https://images.pexels.com/photos/453201/pexels-photo-453201.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    /* background-image: url("https://images.pexels.com/photos/453201/pexels-photo-453201.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"); */
+    background-image: url('../images/password.png');
     background-size: cover;
     width: 47%;
     height: 200px;
@@ -214,7 +218,7 @@ h2 {
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
     padding: 10px;
-
+    opacity: 0.9;
 }
 
 .labels h3 {
