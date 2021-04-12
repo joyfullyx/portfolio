@@ -143,6 +143,7 @@ h2 {
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: flex-end;
+    border: 2px solid #074973;
 }
 
 /* change opacity on hover over images */
@@ -152,7 +153,7 @@ h2 {
 
 .code-refactor {
     /* background-image: url("https://images.pexels.com/photos/1732414/pexels-photo-1732414.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"); */
-    background-image: url('../images/vaccine-types.png');
+    background-image: url('../images/vaccine.png');
     background-size: cover;
     width: 100%;
     height: 500px;
@@ -161,7 +162,7 @@ h2 {
 
 .css-demo {
     /* background-image: url("https://images.pexels.com/photos/323780/pexels-photo-323780.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"); */
-    background-image: url('../images/todo.png');
+    background-image: url('../images/day-planner.png');
     background-size: cover;
     width: 47%;
     height: 200px;
@@ -174,7 +175,7 @@ h2 {
 
 .twilight {
     /* background-image: url("https://images.pexels.com/photos/453201/pexels-photo-453201.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"); */
-    background-image: url('../images/password.png');
+    background-image: url('../images/password-generator.png');
     background-size: cover;
     width: 47%;
     height: 200px;
@@ -230,6 +231,10 @@ h2 {
     font-size: 16px;
 }    
 
+.repo-link {
+    color: #074973;
+}
+
 footer {
     background-color: white;
     padding: 30px 0px;
@@ -275,6 +280,9 @@ footer {
     .flex-card {
         width: 100%;
         max-height: 20%;
+    }
+    .header {
+        width: 400px;
     }
 }
 
